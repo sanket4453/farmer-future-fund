@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+   
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(48, 44, 44,0.9);
+    color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; 
+    /* z-index: 11;
+    overflow: hidden; */
+   
+}
+ .brand-title{
+   
+    font-size: 1rem;
+    margin: 8px;
+}
+.navbar-links ul{
+    display: flex;
+   margin: 0px;
+   padding: 0px;
+   
+
+}
+.navbar-links li{
+  
+    list-style:none
+    
+}
+.navbar-links li a{
+   margin-right: 20px;
+    text-decoration: none;
+    font-size: 23px;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+}
+.navbar-links a:hover{
+    background-color: grey;
+    font-size:25px;
+    color: black;
+}
+
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* margin: 15px 17px; */
+    /* padding: 8px; */
+    /* background: #aeeee0; */
+    /* background: radial-gradient(circle, rgba(174,238,224,1) 0%, rgba(183,148,233,1) 100%); */
+
+}
+.container{
+    
+   background-color: oldlace;
+    width: 70%;
+    align-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 25px;
+    
+    
+}
+input[type=text],input[type=email],textarea[name=address],#Ph_num{
+    background-color: white;
+    border: none;
+    padding:10px;
+    margin: 8px;
+    width: 30%;
+    border: 0.5px solid #ccc;
+    
+}
+fieldset{
+    border:0.5px solid #ccc;
+}
+h1{
+    padding-left: 10px;
+    text-align: center;
+}
+input[type=submit]{
+    cursor: pointer;
+    width: 80%;
+    font-size: 25px;
+    font-family: montserrat;
+    margin-left: 80px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    transition: 0.9s;
+    
+
+}
+input[type=submit]:hover{
+    background-color:#aeeee0;
+    text-shadow: 10px;
+    padding-top: 25px;
+    
+}
+.ftr{
+    height: 45px;
+    background-color: rgb(43, 27, 27);
+    text-align: center;
+    /* margin-top: 30px; */
+}
+.text-center, .text-dark{
+    padding: 15px;
+    color: white;
+}
